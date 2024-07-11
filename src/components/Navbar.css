@@ -1,0 +1,20 @@
+.nav{
+    display: flex;
+}
+.nav1{
+    display: flex;
+    /* float: right; */
+    /* margin-left: 50vw; */
+}
+.serc{
+    display: flex;
+    margin-left: 70vw;
+    margin-top: -3vw;
+}
+.butt5 button{
+    width: 2vw;
+    margin-top: -5vw;
+    margin-left: 70vw;
+    background-color: rgb(241, 14, 14);
+    border-radius: 50%;
+}
