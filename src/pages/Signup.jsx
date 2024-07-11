@@ -9,7 +9,7 @@ import {
   import BackgroundImage from "../components/BackgroundImage";
   
   import { firebaseAuth } from "../utils/firebase-config";
-  // import Login from "./Login";
+ 
   
   const Signup = () => {
    

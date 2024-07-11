@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import "./Signup.css"
-// import logo from "../assets/logo (1).png";
-// import background from "../assets/login.jpg";
+
 import { useNavigate } from "react-router-dom";
 import BackgroundImage from "../components/BackgroundImage";
-// import Header from "../components/Header";
 import { onAuthStateChanged, signInWithEmailAndPassword } from "firebase/auth";
 import { firebaseAuth } from "../utils/firebase-config";
 
@@ -30,14 +28,12 @@ function Login() {
     <Container>
         <BackgroundImage/>
         <div className="content">
-          {/* <Header /> */}
+         
           <div className='container'>
             <div className=' head'>
             <h2>Login</h2>
             </div>
             <div className="form">
-              {/* <label htmlFor="">Enter Name</label> */}
-              {/* <input type="text" placeholder="Enter name" onChange={(e)=>setFormValues({...formValues,[e.target.name]: e.target.value,})} name='name' value={formValues.name}></input> */}
               <input type="email" placeholder='Email address' onChange={(e)=>setEmail(e.target.value)} name='email' value={email}/>             
                 <input
                   type="password"
